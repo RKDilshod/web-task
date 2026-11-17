@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+p{
+    font-size: 18px;
+}
+.intro{
+    font-style: italic;
+}
+#top{
+    background-color: rgb(194, 192, 192);
+}
+h1,nav{
+    text-align: center;
+}
+nav a{
+    color: rgb(19, 0, 232);
+}
+a.active{
+    font-weight: bold;
+}
+li.highlight{
+    background-color: yellow;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <title>Choyxona</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Choyxona</h1>
+    <nav>
+      <a href="#">Bosh sahifa</a>
+      <a href="#menyu">Menyu</a>
+      <a href="#bron">Stol band qilish</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="menyu">Menyu</h2>
+    <table>
+      <tr><th>Taom</th><th>Narxi</th></tr>
+      <tr><td>Osh</td><td>45 000 so‘m</td></tr>
+      <tr><td>Lag‘mon</td><td>38 000 so‘m</td></tr>
+      <tr><td>Manti</td><td>32 000 so‘m</td></tr>
+      <tr><td>Somsa</td><td>12 000 so‘m</td></tr>
+      <tr><td>Ko‘k choy</td><td>5 000 so‘m</td></tr>
+    </table>
+
+    <h2>Haftaning taomi</h2>
+    <ul class="hafta">
+      <li>Dushanba — Osh</li>
+      <li>Seshanba — Lag‘mon</li>
+      <li>Chorshanba — Manti</li>
+      <li>Payshanba — Shashlik</li>
+      <li>Juma — Osh</li>
+      <li>Shanba — Norin</li>
+    </ul>
+
+    <h2>Stol band qilish</h2>
+    <form id="bron">
+      <input type="text" placeholder="Ismingiz" required>
+      <input type="tel" placeholder="901234567" pattern="[0-9]{9}" required>
+      <input type="text" value="Stol №5" disabled>
+      <label><input type="checkbox"> <span>Tug‘ilgan kun</span></label>
+      <button type="button">Band qilish</button>
+    </form>
+  </main>
+
+  <footer>
+    <h3>Bog‘lanish</h3>
+    <p>Toshkent, Chilonzor tumani</p>
+    <p>+998 90 123 45 67</p>
+    <p>Har kuni 09:00–23:00</p>
+  </footer>
+</body>
+</html>

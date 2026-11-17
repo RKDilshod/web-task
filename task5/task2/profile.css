@@ -1,0 +1,73 @@
+body{
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 40px;
+    font-family: Arial,sans-serif;
+}
+#profile{
+    width: 320px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    border-top: 6px solid #4f46e5;
+}
+.avatar{
+    width: 90px;
+    height: 90px;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 90px;
+    margin: 0 auto 15px;
+}
+h2{
+    margin: 0;
+    color: #1e293b;
+    font-size: 22px;
+}
+.role{
+    color: #4f46e5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 5px 0 15px;
+    text-transform: uppercase;
+}
+.bio{
+    color: #64748b;
+    line-height: 1.6;
+    padding-bottom: 25px;
+}
+.skills{
+    list-style: none;
+    padding: 0;
+    padding-bottom: 25px;
+}
+.skills li{
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    padding: 4px 12px;
+    margin: 3px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.buttons a{
+    display: inline-block;
+    padding: 10px 20px ;
+    margin: 0 5px;
+    border-radius: 8px;
+    border-bottom: none;
+    font-size: 14px;
+    font-weight:400;
+}
+.btn-primary{
+    background-color: #4f46e5;
+    color: white;
+}
+.btn-outline{
+    border: #4f46e5 2px solid;
+    color: #4f46e5;
+}
