@@ -24,6 +24,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     gap: 10px;
     font-weight: 800;
     color: #1B6B4F;
+    align-items: center;
 }
 .logo-mark{
     width: 40px;
@@ -82,10 +83,9 @@ mark{
 }
 .covers{
     display: flex;
-    justify-content: center;
     gap: 16px;
 }
-.covers img{
+img{
     width: 150px;
 }
 .main-cover{
